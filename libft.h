@@ -6,9 +6,11 @@
 /*   By: abalea <abalea@learner.42.tech>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 17:58:16 by abalea            #+#    #+#             */
-/*   Updated: 2026/11/04 13:31:16 by abalea           ###   ########.fr       */
+/*   Updated: 2026/11/09 14:27:51 by abalea           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stddef.h>
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);

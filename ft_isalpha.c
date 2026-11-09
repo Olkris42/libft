@@ -6,11 +6,11 @@
 /*   By: abalea <abalea@learner.42.tech>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 17:26:14 by abalea            #+#    #+#             */
-/*   Updated: 2026/11/04 12:19:42 by abalea           ###   ########.fr       */
+/*   Updated: 2026/11/09 14:37:58 by abalea           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	isalpha(int c)
+int	ft_isalpha(int c)
 {
 	if (('A' <= c && c <= 'Z') || ('a' <= c && c <= 'z'))
 		return (1);
